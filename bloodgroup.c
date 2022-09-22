@@ -5,7 +5,7 @@ void main()
   int i;
   do
   {
-    printf("What is your Name? ");
+    printf("What is your Name? Please tell me");
     scanf("%s", Name);
     do
     {
@@ -46,3 +46,9 @@ void main()
   } while (strcmp(answer, "YES") == 0);
   printf("Goodbye\n");
 }
+
+
+
+
+
+
